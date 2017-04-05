@@ -20,4 +20,12 @@ public class TestMyMath {
 		resultado = myMath.Add(-1, 4);
 		assertEquals(resultado,3);
 	}
+	@Test
+	public void AddMinusOneAndFourIsThree(){
+		MyMath myMath = new MyMath();
+		int resultado;
+		resultado = myMath.Add(-1, 4);
+		assertEquals(resultado,3);
+	}
+	
 }
